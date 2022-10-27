@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+    app:
+        image: evolution:0.0.1
+        restart: always
+        ports:
+            - "8080:8080"
